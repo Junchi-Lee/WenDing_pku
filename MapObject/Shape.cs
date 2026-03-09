@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MapObject
 {
-    public class Class1
+    /// <summary>
+    /// 抽象基类，
+    /// 表示一个形状
+    /// </summary>
+    public abstract class Shape
     {
     }
 }
