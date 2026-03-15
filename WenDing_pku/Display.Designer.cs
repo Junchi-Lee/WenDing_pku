@@ -37,6 +37,9 @@
             this.mapControl1.Name = "mapControl1";
             this.mapControl1.Size = new System.Drawing.Size(707, 421);
             this.mapControl1.TabIndex = 0;
+            this.mapControl1.Load += new System.EventHandler(this.Display_Load);
+            this.mapControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.Display_Paint);
+
             // 
             // Display
             // 
@@ -44,7 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(827, 499);
             this.Controls.Add(this.mapControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Display";
             this.Text = "Form1";
             this.ResumeLayout(false);
