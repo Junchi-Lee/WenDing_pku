@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Parts.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Extent.cs" />
     <Compile Include="Points.cs" />
